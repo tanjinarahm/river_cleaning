@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/tanjinarahm/river_cleaning/issues"
   },
-  "homepage": "https://github.com/tanjinarahm/river_cleaning#readme"
+  "homepage": "https://github.com/tanjinarahm/river_cleaning#readme",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
 }
