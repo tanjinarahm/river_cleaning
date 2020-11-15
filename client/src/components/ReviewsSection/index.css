@@ -1,0 +1,115 @@
+.reviews-container{
+    color: var(--dark);
+    background: var(--lightest);
+    padding: 4rem 0;
+}
+
+.reviews-wrap{
+    max-width:1400px;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    background: var(--lightest);
+}
+
+
+.reviews-h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    /* letter-spacing: 2px; */
+    /* color: var(--white); */
+    font-weight: 500;
+}
+
+.reviews-h1 span{
+    font-weight: 700;
+}
+
+.reviews-p{
+    margin-bottom: 2rem;
+}
+
+.review-cards {
+    padding: 2em 0;
+    display: grid;
+    grid-gap: 2rem;
+    /* grid-template-columns: 1fr, 3; */
+    /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.review-card{
+    border-radius: .3em;
+    margin-bottom: 1rem;
+    padding: 3em;
+    /* box-shadow: 10px 10px 30px rgba(0,0,0,0.1); */
+    text-align: left;
+    /* background: #f0f0f0; */
+    background: #E7F4FF;
+}
+
+.review-card h3{
+    font-weight:400;
+    margin-bottom: 1rem;
+}
+
+.review-card span{
+    font-weight: 600;
+}
+
+.text{
+    margin-bottom: 1rem;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.name{
+    font-weight: 600;
+    text-align: right;
+}
+
+.more-reviews{
+    color: #0A3255;
+    text-align: right;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    display:block;
+}
+
+.review-arrow{
+    margin-left: 0.5rem;
+    width: 38px;
+}
+
+
+@media screen and (min-width: 494px){
+    .review-cards{
+        /* display: grid; */
+        /* grid-gap: 4rem; */
+        /* grid-template-columns: repeat(3, 1fr); */
+        /* margin: 0 auto; */
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .reviews-card{
+        /* max-width: 500px; */
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .review-cards{
+        display: grid;
+        grid-gap: 4rem;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0rem;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .more-reviews{
+        grid-column-start: 3;
+    }
+}
+
+
