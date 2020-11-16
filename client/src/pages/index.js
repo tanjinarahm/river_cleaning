@@ -7,6 +7,7 @@ import HowSection from '../components/HowSection'
 import ServicesSection from '../components/ServicesSection'
 import WhySection from '../components/WhySection'
 import ReviewsSection from '../components/ReviewsSection'
+import ContactSection from '../components/ContactSection'
 
 
 const Home = () => {
@@ -27,6 +28,7 @@ const Home = () => {
             <ServicesSection/>
             <WhySection/>
             <ReviewsSection/>
+            <ContactSection/>
         </>
     );
 };
