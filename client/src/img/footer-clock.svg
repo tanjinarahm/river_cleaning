@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.831" height="18.831" viewBox="0 0 18.831 18.831">
+  <g id="clock" transform="translate(-9 -9.1)">
+    <g id="Icon-Clock" transform="translate(9 9.1)">
+      <path id="Fill-131" d="M-359.585-400.069A9.44,9.44,0,0,1-369-409.485a9.44,9.44,0,0,1,9.415-9.415,9.44,9.44,0,0,1,9.415,9.415,9.388,9.388,0,0,1-9.415,9.415Zm0-17.844Z" transform="translate(369 418.9)" fill="#505050"/>
+      <path id="Fill-132" d="M-343.905-398.432l-3.495-3.495V-408.3h1.11v5.921l3.166,3.166-.781.781" transform="translate(356.281 412.658)" fill="#efefef"/>
+    </g>
+  </g>
+</svg>

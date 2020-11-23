@@ -4,6 +4,7 @@ import { Link as LinkS } from 'react-scroll'
 
 
 export const Nav = styled.nav`
+    // background: ${({ scrollNav }) => (scrollNav ? 'red' : 'transparent')};
     background: var(--white);
     height: 80px;
     // height: 80px;
@@ -68,6 +69,7 @@ export const NavMenu = styled.ul`
     list-style: none;
     text-align: center;
     // margin-right: -22px;
+    // margin: 2rem;
 
     @media screen and (max-width: 768px){
         display: none
@@ -83,23 +85,26 @@ export const NavLinks = styled(LinkS)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    // padding: 0 2rem;
+    padding: 0 2rem;
     padding-left: 2rem;
-    // margin-left: 1rem;
+    margin-left: 2rem;
     height: 100%;
     cursor: pointer;
+    border-bottom: 3px solid var(--white);
 
     &:hover {
         color: var(--medium);
-        // border-bottom: 3px solid var(--medium);
+        transition: all 250ms ease-in-out;
+        border-bottom: 3px solid var(--medium);
     }
 
     &.active {
-        color: red;
-        // border-bottom: 3px solid #01bf71;
+        color: var(--medium);
+        transition: all 250ms ease-in-out;
+        border-bottom: 3px solid var(--medium);
     }
 
     @media screen and (min-width: 1200px){
-        padding-left: 5rem;
+        // padding-left: 5rem;
     }
 `

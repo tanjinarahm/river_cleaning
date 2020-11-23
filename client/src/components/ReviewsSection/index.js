@@ -29,8 +29,8 @@ const ReviewsSection = () => {
                             <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur animi in dolorem eveniet obcaecati ratione quisquam temporibus totam? Necessitatibus, quod totam. Illum dicta est molestiae obcaecati. Quasi eligendi magnam minus.</p>
                             <p className="name">-Jane Doe</p>
                         </div>
-                    <a href="" className="more-reviews"> More Reviews <img src={arrow} className="review-arrow" /> </a>
                     </div>
+                    <a href="/reviews" className="more-reviews"> More Reviews <img src={arrow} className="review-arrow" /> </a>
 
                 </div>
             </div>

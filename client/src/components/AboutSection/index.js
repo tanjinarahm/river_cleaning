@@ -16,7 +16,7 @@ import css from './index.css'
 const AboutSection = () => {
     return (
         <>
-            <AboutContainer>
+            <AboutContainer className="about" id="about">
                <AboutWrapper>
                    {/* <AboutImage src={about} type="img">
                    </AboutImage> */}

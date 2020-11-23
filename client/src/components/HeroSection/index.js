@@ -13,7 +13,7 @@ const HeroSection = () => {
     }
 
     return (
-        <HeroContainer>
+        <HeroContainer className="home" id="home">
             {/* <HeroBg>
                 <ImageBg src={landing} type="img" />
             </HeroBg> */}

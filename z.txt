@@ -4,3 +4,21 @@
 
 
                     <ContactBtn to='contact' onMouseEnter={onHover} onMouseLeave={onHover}dark="true">Contact us</ContactBtn>
+
+
+
+                    @media screen and (min-width:1000px){
+    .contact-container{
+        padding: 4rem;
+        background-color: var(--white);
+    }
+
+    .contact-wrap{
+        padding: 2rem;
+        /* padding: 2rem 2rem; */
+        max-width: 1368px !important;
+        position: relative;
+        overflow: hidden;
+        display: grid;
+    }
+}

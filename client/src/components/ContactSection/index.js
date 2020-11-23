@@ -8,7 +8,7 @@ import river from '../../img/contact-river.svg'
 const ContactSection = () => {
     return (
         <>
-            <div className="contact-container">
+            <div className="contact-container contact">
                 <div className="contact-wrap">
                     
                     <img src={river} alt="river-image" className="contact-river"/>
@@ -28,7 +28,7 @@ const ContactSection = () => {
                                 <p className="contact-info last"><img src={location} alt=""/>Northern Virginia</p>
 
                             </div>
-                           
+                            
                         </div>
                         {/* <div className="contact-info">
                         </div> */}

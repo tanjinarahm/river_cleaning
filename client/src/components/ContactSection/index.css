@@ -2,15 +2,16 @@
 .contact-container{
     color: var(--white);
     /* padding: 4rem 0; */
-    background-color: var(--medium);
+    /* background-color: var(--medium); */
 }
 
 .contact-wrap{
-    max-width: 1400px;
+    max-width: 1400px !important;
     margin: 0 auto;
-    padding: 1rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    /* padding: 4rem 4rem; */
+    padding: 2rem;
+    /* padding-top: 4rem; */
+    /* padding-bottom: 4rem; */
     background-color: var(--medium);
     position: relative;
     overflow: hidden;
@@ -164,7 +165,11 @@
         margin-bottom: 0rem;
     }
 
+    .last {
+        margin-bottom: 0;
+    }
 }
+
 
 @media screen and (min-width:1000px){
     .contact-container{
@@ -173,9 +178,9 @@
     }
 
     .contact-wrap{
-        padding: 4rem;
+        /* padding: 2rem; */
         /* padding: 2rem 2rem; */
-        max-width: 1368px !important;
+        max-width: 1338px !important;
         position: relative;
         overflow: hidden;
         display: grid;

@@ -8,6 +8,8 @@ import ServicesSection from '../components/ServicesSection'
 import WhySection from '../components/WhySection'
 import ReviewsSection from '../components/ReviewsSection'
 import ContactSection from '../components/ContactSection'
+import Footer from '../components/Footer'
+import GallerySection from '../components/GallerySection'
 
 
 const Home = () => {
@@ -20,15 +22,17 @@ const Home = () => {
 
     return (
         <>
-            <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar toggle={toggle}/>
+            {/* <Sidebar isOpen={isOpen} toggle={toggle}/> */}
+            {/* <Navbar toggle={toggle}/> */}
             <HeroSection/>
             <HowSection/>
             <AboutSection/>
             <ServicesSection/>
+            <GallerySection/>
             <WhySection/>
             <ReviewsSection/>
             <ContactSection/>
+            {/* <Footer/> */}
         </>
     );
 };

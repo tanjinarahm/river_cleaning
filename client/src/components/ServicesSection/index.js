@@ -22,7 +22,7 @@ const ServicesSection = () => {
                             {/* <p className="book-arrow"> <img src={arrow} className="arrow"/> Book Now</p> */}
                             <a href="" className="book-arrow"> <img src={arrow} className="arrow"/> Book Now</a>
                         </div>
-                        <a href="" className="learn-more"> Learn More <img src={arrow} className="learn-arrow"/></a>
+                        <a href="/services" className="learn-more"> Learn More <img src={arrow} className="learn-arrow"/></a>
                         {/* <p className="learn-more"> Learn More <img src={arrow} className="learn-arrow"/></p> */}
                     </div>
                 </div>
