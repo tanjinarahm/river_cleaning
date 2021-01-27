@@ -13,10 +13,18 @@ import phone from '../../img/footer-phone.svg'
 
 const Footer = () => {
     return (
-        <>
+        <> 
            <div className="footer-container">
                <div className="footer-wrap">
+
+                   <div>
                     <img src={logo} alt="logo" id="footer-logo"/>
+                    <div className=" socials-left">
+                            <a href=""><img src={twitter} alt=""/></a>
+                            <a href=""><img src={insta} alt=""/></a>
+                            <a href=""><img src={facebook} alt=""/></a>
+                        </div>
+                   </div>
 
                     <div className="footer-services">
                         <h3>Services</h3>
@@ -43,7 +51,7 @@ const Footer = () => {
                     </div>
                </div>
                     <div className="footer-bottom">
-                        <div className="footer-socials">
+                        <div className="footer-socials socials-bottom">
                             <a href=""><img src={twitter} alt=""/></a>
                             <a href=""><img src={insta} alt=""/></a>
                             <a href=""><img src={facebook} alt=""/></a>

@@ -1,0 +1,123 @@
+.bg {
+    background: var(--medium);
+}
+
+.why-container {
+    background: var(--medium);
+    padding: 4rem 0;
+    color: var(--white);
+    max-width:1400px;
+    margin: 0 auto;
+}
+
+
+
+.why-wrapper{
+    background: var(--medium);
+    
+    /* margin: 0 auto; */
+    padding: 0 2rem;
+    background: var(--medium);
+}
+
+.why-h1{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    letter-spacing: 2px;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.why-h1 span{
+    font-weight: 700;
+}
+
+.why-section img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.why-content{
+    /* padding: 2em 0; */
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+}
+
+.why-section h3{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.why-section p{
+    line-height: 1.4;
+}
+
+
+@media screen and (min-width:  375px) {
+    .why-content {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .why-content {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .why-container {
+        padding: 0;
+        display: grid; 
+        grid-template-columns: 50% 50%;
+    }
+    
+    .why-content {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
+    }
+    
+    .bg {
+        position: relative;
+        /* display: grid;
+        grid-template-columns: 50% 50%; */
+
+    }
+
+    .kitchen-joint {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+/* 
+        position: absolute;
+        right: 0; */
+    }
+
+    .why-h1 {
+        padding-top: 4rem;
+    }
+
+    .why-content {
+        padding-bottom: 4rem;
+    }   
+}
+
+
+@media screen and (min-width: 1200px) { 
+
+    .why-h1 {
+        padding-top: 8rem;
+    }
+
+    .why-content {
+        /* padding-right: 3rem; */
+        padding-bottom: 8rem;
+    }
+}

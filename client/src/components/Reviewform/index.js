@@ -1,6 +1,7 @@
 import React from 'react'
 import css from './index.css'
 import river from '../../img/review-river.svg'
+import StarRating from '../StarRating'
 
 const Reviewform = () => {
     return (
@@ -31,11 +32,12 @@ const Reviewform = () => {
                                 <label htmlFor="email">Email</label>
                                 <input type="email" name="email"/>
                             </div>
-
                             <div>
                                 <label htmlFor="rating">Rating</label>
-                                <input type="text" name="rating"/>
+                                <StarRating/>
+                                {/* <input type="text" name="rating"/> */}
                             </div>
+
 
                             <div className="message-div">
                                 <label htmlFor="message">Message</label>

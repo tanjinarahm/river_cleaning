@@ -9,7 +9,9 @@ import WhySection from '../components/WhySection'
 import ReviewsSection from '../components/ReviewsSection'
 import ContactSection from '../components/ContactSection'
 import Footer from '../components/Footer'
-import GallerySection from '../components/GallerySection'
+import GallSection from '../components/GallSection'
+import WhyGallerySection from '../components/WhyGallerySection'
+import WhatSection from '../components/WhatSection'
 
 
 const Home = () => {
@@ -28,8 +30,10 @@ const Home = () => {
             <HowSection/>
             <AboutSection/>
             <ServicesSection/>
-            <GallerySection/>
-            <WhySection/>
+            {/* <GallSection/> */}
+            <WhyGallerySection/> 
+            <WhatSection/>
+            {/* <WhySection/> */}
             <ReviewsSection/>
             <ContactSection/>
             {/* <Footer/> */}

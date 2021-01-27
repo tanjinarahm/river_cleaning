@@ -5,10 +5,11 @@
 }
 
 .footer-wrap{
-    max-width:1400px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 0rem 2rem;
     background: #EFEFEF;
+    overflow: hidden;
 }
 
 
@@ -30,6 +31,10 @@
     color: #505050;
 }
 
+.socials-left {
+    display: none;
+}
+
 
 
 .footer-links{
@@ -49,7 +54,7 @@
     text-decoration: none;
     cursor: pointer;
     color: #505050;
-}
+} 
 
 
 
@@ -129,6 +134,25 @@
         display: grid;
         grid-template-columns: 1.25fr 1fr;
         grid-gap: 1rem;
+    }
+
+    .socials-left {
+        display: block;
+
+    }
+
+    .socials-left img{
+        width: 20px;
+        margin-top: 0.5rem;
+        margin-right: 12px;
+    }
+
+    .socials-bottom {
+        display: none;
+    }
+
+    .copyright{
+        margin-top: 2rem;
     }
 }
 

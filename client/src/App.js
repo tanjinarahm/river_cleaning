@@ -12,6 +12,7 @@ import Home from './pages/index.js'
 import ServicesPage from './pages/services'
 import ReviewsPage from './pages/reviews'
 import ReviewForm from './pages/review-form'
+import GalleryPage from './pages/gallery';
 
 
 
@@ -33,6 +34,7 @@ const App = () => {
               <Route path="/services" component={ServicesPage} exact/>
               <Route path="/reviews" component={ReviewsPage} exact/>
               <Route path="/submitreview" component={ReviewForm} exact/>
+              <Route path="/gallery" component={GalleryPage} exact/>
           </Switch>
           {/* <HeroSection/> */}
           <Footer/>
